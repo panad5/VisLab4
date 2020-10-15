@@ -1,0 +1,45 @@
+/* line styles */
+.axis path,
+.axis line { 
+	fill: none;
+	stroke: #333;
+	shape-rendering: crispEdges;
+}
+/* labels */
+.axis text {
+	font-family: sans-serif;
+	font-size: 11px;
+}
+
+body{
+	text-align: center;
+}
+
+.yaxis{
+	font-size: 12px;
+	writing-mode: vertical-lr;
+}
+
+.xaxis{
+	font-size: 12px;
+}
+
+.tooltip {
+    position: fixed;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: AliceBlue;
+}
+
+.tooltip.show {
+    display: none;
+}
+
+.tooltip{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
